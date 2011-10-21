@@ -1,0 +1,70 @@
+#!/usr/bin/make -f
+# -*- makefile -*-
+
+include /usr/share/cdbs/1/rules/debhelper.mk
+include /usr/share/cdbs/1/class/makefile.mk
+
+CMAKE = cmake -DCMAKE_INSTALL_PREFIX=$(CURDIR)/debian/tmp/usr -DMARBLE_DATA_INSTALL_PATH=$(CURDIR)/debian/tmp/usr/share/marble/data -DQTONLY=ON -DMARBLE_DATA_PATH=/usr/share/marble/data -DMARBLE_PLUGIN_INSTALL_PATH=$(CURDIR)/debian/tmp/usr/lib/marble/plugins -DMARBLE_PLUGIN_PATH=/usr/lib/marble/plugins -DPACKAGE_ROOT_PREFIX=$(CURDIR)/debian/tmp -DCMAKE_SKIP_RPATH=ON -DBUILD_MARBLE_TESTS=OFF -DENABLE_TESTS=FALSE -DCMAKE_BUILD_TYPE=Release -DMOBILE=ON
+
+DEB_MAKE_INSTALL_TARGET = install
+
+DEB_DH_INSTALL_SOURCEDIR = debian/tmp
+
+DEB_DH_SHLIBDEPS_ARGS_ALL = -l$(CURDIR)/debian/tmp/usr/lib
+
+clean::
+	-rm -rf CMakeFiles
+	-rm -f CMakeCache.txt
+	-rm -f CPackConfig.cmake
+	-rm -f CPackSourceConfig.cmake
+	-rm -f Makefile
+	-rm -f cmake_install.cmake
+	-rm -f cmake_uninstall.cmake
+	-rm -f svnscript.cmake
+	-rm -f install_manifest.txt
+	-rm -rf data/CMakeFiles
+	-rm -f data/cmake_install.cmake
+	-rm -f data/Makefile
+	-rm -rf src/CMakeFiles
+	-rm -f src/Makefile
+	-rm -f src/config-marble.h
+	-rm -f src/cmake_install.cmake
+	-rm -rf src/lib/CMakeFiles
+	-rm -f src/lib/Makefile
+	-rm -f src/lib/config-libgps.h
+	-rm -f src/lib/cmake_install.cmake
+	-rm -rf src/tilecreator/data
+	-rm -rf src/tilecreator/tiles
+	-rm -rf src/tilecreator/CMakeFiles
+	-rm -f src/tilecreator/cmake_install.cmake
+	-rm -f src/tilecreator/Makefile
+	-rm -rf src/plugins/CMakeFiles
+	-rm -f src/plugins/Makefile
+	-rm -f src/plugins/cmake_install.cmake
+	-rm -rf src/plugins/designer/CMakeFiles
+	-rm -f src/plugins/designer/Makefile
+	-rm -f src/plugins/designer/cmake_install.cmake
+	-rm -rf src/plugins/marble/CMakeFiles
+	-rm -f src/plugins/marble/Makefile
+	-rm -f src/plugins/marble/cmake_install.cmake
+	-rm -rf src/plugins/marble/compass/CMakeFiles
+	-rm -f src/plugins/marble/compass/Makefile
+	-rm -f src/plugins/marble/compass/cmake_install.cmake
+	-rm -rf src/plugins/marble/mapscale/CMakeFiles
+	-rm -f src/plugins/marble/mapscale/Makefile
+	-rm -f src/plugins/marble/mapscale/cmake_install.cmake
+	-rm -rf src/plugins/marble/overviewmap/CMakeFiles
+	-rm -f src/plugins/marble/overviewmap/Makefile
+	-rm -f src/plugins/marble/overviewmap/cmake_install.cmake
+	-rm -rf src/plugins/marble/stars/CMakeFiles
+	-rm -f src/plugins/marble/stars/Makefile
+	-rm -f src/plugins/marble/stars/cmake_install.cmake
+	-rm -rf tests/CMakeFiles
+	-rm -f tests/Makefile
+	-rm -f tests/cmake_install.cmake
+
+common-configure-arch::
+	$(CMAKE)
+
+common-binary-post-install-indep::
+	rm -f $(CURDIR)/debian/marble-data/usr/share/marble/data/LICENSE.txt
