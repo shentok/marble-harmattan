@@ -134,7 +134,7 @@ Description: Shared library for marble
 Package: marble-plugins
 Section: misc
 Architecture: any
-Depends: ${shlibs:Depends}, libmarble (= ${source:Version}), ogg-support, decoders-support
+Depends: ${shlibs:Depends}, libmarble (= ${source:Version})
 XSBC-Bugtracker: https://bugs.kde.org/enter_bug.cgi?product=marble&rep_platform=Maemo%205
 Description: Plugins for marble
  Extends the marble library with several features: Info boxes like a scale bar,
