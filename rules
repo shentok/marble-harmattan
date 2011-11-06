@@ -65,3 +65,7 @@ clean::
 
 common-configure-arch::
 	$(CMAKE)
+
+common-binary-post-install-udeb::
+	aegis-deb-add -control debian/marble/DEBIAN/control .. 
+	debian/marble.aegis=_aegis

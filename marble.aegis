@@ -1,0 +1,10 @@
+<aegis>
+        <request>
+                <credential name="Location" />
+                <for path="/usr/bin/marble" />
+        </request>       
+        <request>
+                <credential name="Location" />
+                <for path="/usr/bin/marble-touch" />
+        </request>       
+</aegis>
