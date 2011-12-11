@@ -1,59 +1,65 @@
-marble (1.2.80.2) fremantle; urgency=low
+marble (1.2.85) harmattan; urgency=low
+
+  * New upstream version.
+
+ -- Bernhard Beschow <bbeschow@cs.tu-berlin.de>  Wed, 11 Dec 2011 14:50:20 +0100
+
+marble (1.2.80.2) harmattan; urgency=low
 
   * New upstream version.
 
  -- Bernhard Beschow <bbeschow@cs.tu-berlin.de>  Wed, 23 Nov 2011 16:29:20 +0100
 
-marble (1.2.80.1) fremantle; urgency=low
+marble (1.2.80.1) harmattan; urgency=low
 
   * New upstream version.
 
  -- Bernhard Beschow <bbeschow@cs.tu-berlin.de>  Wed, 23 Nov 2011 16:29:20 +0100
 
-marble (1.2.80) fremantle; urgency=low
+marble (1.2.80) harmattan; urgency=low
 
   * New upstream version.
 
  -- Bernhard Beschow <bbeschow@cs.tu-berlin.de>  Wed, 23 Nov 2011 16:29:20 +0100
 
-marble (1.2.50) fremantle; urgency=low
+marble (1.2.50) harmattan; urgency=low
 
   * New upstream version.
 
  -- Bernhard Beschow <bbeschow@cs.tu-berlin.de>  Thu, 14 Apr 2011 21:24:20 +0200
 
-marble (1.1.0) fremantle; urgency=low
+marble (1.1.0) harmattan; urgency=low
 
   * New upstream version.
 
  -- Dennis Nienhüser <earthwings@gentoo.org>  Thu, 14 Apr 2011 21:24:20 +0200
 
-marble (1.0.1) fremantle; urgency=low
+marble (1.0.1) harmattan; urgency=low
 
   * New upstream version.
 
  -- Dennis Nienhüser <earthwings@gentoo.org>  Sun, 06 Mar 2011 11:39:16 +0100
 
-marble (1.0.0) fremantle; urgency=low
+marble (1.0.0) harmattan; urgency=low
 
   * New upstream version, stable release.
 
  -- Dennis Nienhüser <earthwings@gentoo.org>  Fri, 21 Jan 2011 19:49:10 +0100
 
-marble (0.95+svn1211246-2) fremantle; urgency=low
+marble (0.95+svn1211246-2) harmattan; urgency=low
 
   * Increase marble-data version in dependencies to make sure it gets upgraded.
 
  -- Dennis Nienhüser <earthwings@gentoo.org>  Wed, 05 Jan 2011 19:30:25 +0100
 
-marble (0.95+svn1211246) fremantle; urgency=low
+marble (0.95+svn1211246) harmattan; urgency=low
 
   * New upstream package. Include osmarender and hikebikemap themes. Fix
     upgrade problem with marble-maps.
 
  -- Dennis Nienhüser <earthwings@gentoo.org>  Tue, 04 Jan 2011 21:32:38 +0100
 
-marble (0.10-svn+1159226-2) fremantle; urgency=low
+marble (0.10-svn+1159226-2) harmattan; urgency=low
 
   * Removed unit tests from build.
 
