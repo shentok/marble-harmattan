@@ -9,7 +9,8 @@ Standards-Version: 3.9.1
 Package: marble
 Section: user/navigation
 Architecture: any
-Depends: ${shlibs:Depends}, marble-plugins (= ${source:Version}), libmarble (= ${source:Version})
+Depends: ${shlibs:Depends}, marble-plugins (= ${source:Version}), libmarble (= ${source:Version}),
+          libqtm-multimedia, libqtm-systeminfo, libqt4-declarative
 Description: Find your way and explore the world with Marble.
  Marble is a virtual globe with advanced routing capabilities. Use it as your
  personal navigation device to guide you to any destination in the world.
