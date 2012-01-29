@@ -1,3 +1,16 @@
+marble (1.2.98.1) harmattan; urgency=low
+
+  * New upstream version.
+
+ -- Dennis Nienhüser <earthwings@gentoo.org>  Sun, 29 Jan 2012 22:38:26 +0100
+
+marble (1.2.98) harmattan; urgency=low
+
+  * New upstream version. All packages merged into one marble.deb, installed
+    to /opt/marble, local cache is now /home/user/MyDocs
+
+ -- Dennis Nienhüser <earthwings@gentoo.org>  Sun, 29 Jan 2012 15:47:31 +0100
+
 marble (1.2.80.2) fremantle; urgency=low
 
   * New upstream version.
