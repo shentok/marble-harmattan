@@ -1,44 +1,71 @@
-usr/bin/marble-touch
-usr/lib/lib*.so*
-usr/lib/marble/plugins/libCachePlugin.so
-usr/lib/marble/plugins/libCompassFloatItem.so
-usr/lib/marble/plugins/libCrosshairsPlugin.so
-usr/lib/marble/plugins/libEarthquakePlugin.so
-usr/lib/marble/plugins/libElevationProfileFloatItem.so
-usr/lib/marble/plugins/libGosmorePlugin.so
-usr/lib/marble/plugins/libGpsInfo.so
-usr/lib/marble/plugins/libGpxPlugin.so
-usr/lib/marble/plugins/libGraticulePlugin.so
-usr/lib/marble/plugins/libHostipPlugin.so
-usr/lib/marble/plugins/libKmlPlugin.so
-usr/lib/marble/plugins/libLatLonPlugin.so
-usr/lib/marble/plugins/libLocalDatabasePlugin.so
-usr/lib/marble/plugins/libLocalOsmSearchPlugin.so
-usr/lib/marble/plugins/libMapScaleFloatItem.so
-usr/lib/marble/plugins/libMonavPlugin.so
-usr/lib/marble/plugins/libNavigationFloatItem.so
-usr/lib/marble/plugins/libNominatimPlugin.so
-usr/lib/marble/plugins/libOpenDesktopPlugin.so
-usr/lib/marble/plugins/libOpenRouteServicePlugin.so
-usr/lib/marble/plugins/libOsmPlugin.so
-usr/lib/marble/plugins/libOverviewMap.so
-usr/lib/marble/plugins/libPhoto.so
-# usr/lib/marble/plugins/libPlacemarkPositionProviderPlugin.so
-usr/lib/marble/plugins/libPntPlugin.so
-usr/lib/marble/plugins/libPositionMarker.so
-usr/lib/marble/plugins/libProgressFloatItem.so
-usr/lib/marble/plugins/libQNamNetworkPlugin.so
-usr/lib/marble/plugins/libQtMobilityPositionProviderPlugin.so
-usr/lib/marble/plugins/libRoutingPlugin.so
-usr/lib/marble/plugins/libRoutinoPlugin.so
-usr/lib/marble/plugins/libSatellitesPlugin.so
-usr/lib/marble/plugins/libSpeedometer.so
-usr/lib/marble/plugins/libStarsPlugin.so
-usr/lib/marble/plugins/libSunPlugin.so
-usr/lib/marble/plugins/libWeather.so
-usr/lib/marble/plugins/libWikipedia.so
-usr/lib/marble/plugins/libYoursPlugin.so
-usr/lib/qt4/imports/*
+opt/marble/bin/marble-touch
+opt/marble/lib/lib*.so*
+opt/marble/lib/marble/plugins/libCachePlugin.so
+opt/marble/lib/marble/plugins/libCompassFloatItem.so
+opt/marble/lib/marble/plugins/libCrosshairsPlugin.so
+# opt/marble/lib/marble/plugins/libEarthquakePlugin.so
+opt/marble/lib/marble/plugins/libElevationProfileFloatItem.so
+# opt/marble/lib/marble/plugins/libGosmorePlugin.so
+# opt/marble/lib/marble/plugins/libGpsInfo.so
+opt/marble/lib/marble/plugins/libGpxPlugin.so
+opt/marble/lib/marble/plugins/libGraticulePlugin.so
+# opt/marble/lib/marble/plugins/libHostipPlugin.so
+opt/marble/lib/marble/plugins/libKmlPlugin.so
+opt/marble/lib/marble/plugins/libLatLonPlugin.so
+opt/marble/lib/marble/plugins/libLocalDatabasePlugin.so
+opt/marble/lib/marble/plugins/libLocalOsmSearchPlugin.so
+opt/marble/lib/marble/plugins/libMapScaleFloatItem.so
+opt/marble/lib/marble/plugins/libMonavPlugin.so
+# opt/marble/lib/marble/plugins/libNavigationFloatItem.so
+opt/marble/lib/marble/plugins/libNominatimPlugin.so
+opt/marble/lib/marble/plugins/libOpenDesktopPlugin.so
+opt/marble/lib/marble/plugins/libOpenRouteServicePlugin.so
+# opt/marble/lib/marble/plugins/libOsmPlugin.so
+opt/marble/lib/marble/plugins/libOverviewMap.so
+# opt/marble/lib/marble/plugins/libPhoto.so
+# opt/marble/lib/marble/plugins/libPlacemarkPositionProviderPlugin.so
+# opt/marble/lib/marble/plugins/libPntPlugin.so
+opt/marble/lib/marble/plugins/libPositionMarker.so
+opt/marble/lib/marble/plugins/libProgressFloatItem.so
+opt/marble/lib/marble/plugins/libQNamNetworkPlugin.so
+opt/marble/lib/marble/plugins/libQtMobilityPositionProviderPlugin.so
+# opt/marble/lib/marble/plugins/libRoutingPlugin.so
+# opt/marble/lib/marble/plugins/libRoutinoPlugin.so
+opt/marble/lib/marble/plugins/libSatellitesPlugin.so
+opt/marble/lib/marble/plugins/libSpeedometer.so
+opt/marble/lib/marble/plugins/libStarsPlugin.so
+opt/marble/lib/marble/plugins/libSunPlugin.so
+opt/marble/lib/marble/plugins/libWeather.so
+# opt/marble/lib/marble/plugins/libWikipedia.so
+opt/marble/lib/marble/plugins/libYoursPlugin.so
+opt/marble/lib/marble/plugins/org/kde/edu/marble
+opt/marble/share/marble/data/audio
+opt/marble/share/marble/data/bitmaps
+opt/marble/share/marble/data/credits_authors.html
+opt/marble/share/marble/data/credits_data.html
+opt/marble/share/marble/data/flags
+opt/marble/share/marble/data/landcolors.leg
+opt/marble/share/marble/data/legend.css
+opt/marble/share/marble/data/legend.html
+opt/marble/share/marble/data/licenses
+opt/marble/share/marble/data/LICENSE.txt
+opt/marble/share/marble/data/maps/earth/bluemarble
+opt/marble/share/marble/data/maps/earth/citylights
+opt/marble/share/marble/data/maps/earth/clouds
+opt/marble/share/marble/data/maps/earth/hillshading
+opt/marble/share/marble/data/maps/earth/openstreetmap
+opt/marble/share/marble/data/maps/earth/plain
+opt/marble/share/marble/data/maps/earth/srtm
+opt/marble/share/marble/data/maps/earth/srtm2
+opt/marble/share/marble/data/maps/moon
+opt/marble/share/marble/data/mwdbii
+opt/marble/share/marble/data/placemarks
+opt/marble/share/marble/data/precipcolors.leg
+opt/marble/share/marble/data/seacolors.leg
+opt/marble/share/marble/data/stars
+opt/marble/share/marble/data/svg
+opt/marble/share/marble/data/tempcolors.leg
+opt/marble/share/marble/data/weather
 usr/share/applications/marble.desktop
 usr/share/icons/hicolor/128x128/apps/marble.png
 usr/share/icons/hicolor/16x16/apps/marble.png
@@ -46,31 +73,4 @@ usr/share/icons/hicolor/22x22/apps/marble.png
 usr/share/icons/hicolor/32x32/apps/marble.png
 usr/share/icons/hicolor/48x48/apps/marble.png
 usr/share/icons/hicolor/64x64/apps/marble.png
-usr/share/marble/data/audio
-usr/share/marble/data/bitmaps
-usr/share/marble/data/credits_authors.html
-usr/share/marble/data/credits_data.html
-usr/share/marble/data/flags
-usr/share/marble/data/landcolors.leg
-usr/share/marble/data/legend.css
-usr/share/marble/data/legend.html
-usr/share/marble/data/licenses
-usr/share/marble/data/LICENSE.txt
-usr/share/marble/data/maps/earth/bluemarble
-usr/share/marble/data/maps/earth/citylights
-usr/share/marble/data/maps/earth/clouds
-usr/share/marble/data/maps/earth/hillshading
-usr/share/marble/data/maps/earth/openstreetmap
-usr/share/marble/data/maps/earth/plain
-usr/share/marble/data/maps/earth/srtm
-usr/share/marble/data/maps/earth/srtm2
-usr/share/marble/data/maps/moon
-usr/share/marble/data/mwdbii
-usr/share/marble/data/placemarks
-usr/share/marble/data/precipcolors.leg
-usr/share/marble/data/seacolors.leg
-usr/share/marble/data/stars
-usr/share/marble/data/svg
-usr/share/marble/data/tempcolors.leg
-usr/share/marble/data/weather
 usr/share/themes/base/meegotouch/icons/marble.svg
