@@ -15,6 +15,7 @@ opt/marble/lib/marble/plugins/libLatLonPlugin.so
 opt/marble/lib/marble/plugins/libLocalDatabasePlugin.so
 opt/marble/lib/marble/plugins/libLocalOsmSearchPlugin.so
 opt/marble/lib/marble/plugins/libMapScaleFloatItem.so
+opt/marble/lib/marble/plugins/libMapQuestPlugin.so
 opt/marble/lib/marble/plugins/libMonavPlugin.so
 # opt/marble/lib/marble/plugins/libNavigationFloatItem.so
 opt/marble/lib/marble/plugins/libNominatimPlugin.so
