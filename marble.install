@@ -5,6 +5,7 @@ opt/marble/lib/marble/plugins/libCompassFloatItem.so
 opt/marble/lib/marble/plugins/libCrosshairsPlugin.so
 # opt/marble/lib/marble/plugins/libEarthquakePlugin.so
 opt/marble/lib/marble/plugins/libElevationProfileFloatItem.so
+opt/marble/lib/marble/plugins/libElevationProfileMarker.so
 # opt/marble/lib/marble/plugins/libGosmoreRoutingPlugin.so
 # opt/marble/lib/marble/plugins/libGosmoreReverseGeocodingPlugin.so
 # opt/marble/lib/marble/plugins/libGpsInfo.so
