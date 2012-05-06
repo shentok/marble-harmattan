@@ -1,0 +1,22 @@
+Index: usr/share/applications/marble.desktop
+===================================================================
+--- usr/share/applications/marble.desktop	2011-11-25 00:08:45.000000000 +0100
++++ usr/share/applications/marble.desktop	2011-11-25 00:10:13.000000000 +0100
+@@ -1,7 +1,6 @@
+ [Desktop Entry]
+ Type=Application
+-TryExec=marble
+-Exec=marble
++Exec=/usr/bin/env QML_IMPORT_PATH=/opt/marble/lib/marble/plugins LD_LIBRARY_PATH=/opt/marble/lib XDG_DATA_HOME=/home/user/MyDocs/.local/share /usr/bin/single-instance /opt/marble/bin/marble-touch
+ Name=Marble
+ Name[ast]=Marble
+ Name[bg]=Marble
+@@ -111,7 +110,5 @@
+ GenericName[x-test]=xxDesktop Globexx
+ GenericName[zh_CN]=桌面地球仪
+ GenericName[zh_TW]=桌面星象儀
+-Icon=marble
++Icon=/usr/share/themes/base/meegotouch/icons/marble.svg
+ Terminal=false
+-Categories=Qt;KDE;Education;Geography;
+-X-DocPath=marble/index.html
